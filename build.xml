@@ -101,4 +101,21 @@
 			</manifest>
 		</jar>
 	</target>
+	
+
+	<target name="doc" description="generate javadoc" depends="compile">
+		<javadoc packagenames="erjang.*"
+		           destdir="target/docs/api"
+		           author="true"
+		           version="true"
+		           use="true"
+		           windowtitle="Erjang">
+		    <doctitle><![CDATA[<h1>Erjang</h1>]]></doctitle>
+		    <bottom><![CDATA[<i>TBD erjang license note</i>]]></bottom>
+			<fileset dir="src" defaultexcludes="yes">
+		            <include name="**/*.java"/>
+		            <exclude name="test/**/*.java" />
+			</fileset>
+		</javadoc>
+	</target>
 </project>
