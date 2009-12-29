@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+    {% include header.html %}
+	<div id="page" class="container">
+		<div id="content">
+			{{ content }}
+		</div>
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>About erjang</h2>
+					<p><img src="images/img03.jpg" width="210" height="72" alt="" class="border" /></p>
+					<p><strong>Erjang is a</strong> virtual machine for Erlang, which runs on Java™</p>
+				</li>
+				<li>
+					<h2>Erjang resources</h2>
+					<ul>
+						<li><a href="http://wiki.github.com/krestenkrab/erjang">Erjang on github</a></li>
+						<li><a href="http://www.javalimit.com/">Kresten's blog on Erjang and other topics</a></li>
+						<li><a href="http://groups.google.com/group/erjang">Erjang google group</a></li>
+						<li><a href="api/index-all.html">Erjang JavaDoc</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix">&nbsp;</div>
+		<div id="footer-bar" class="two-cols">
+			<div class="col1">
+				<h2>Erjang - Concurrent programming for the Java platform</h2>
+			</div>
+			<div class="col2">
+				
+			</div>
+			<div class="clearfix">&nbsp;</div>
+		</div>
+	</div>
+</div>
+<div id="footer" class="container">
+	<p>Erjang documentation page</p>
+</div>
+</body>
+</html>
