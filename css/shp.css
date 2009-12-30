@@ -1,0 +1,120 @@
+/* ----------------------------------------------------------------------------
+    Clearfix class
+ */
+.clearfix:after {
+    content:            ".";
+    display:            block;
+    height:             0;
+    clear:              both;
+    visibility:         hidden;
+}
+
+.clearfix {
+    display:            inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+    height:             1%; 
+}
+
+.clearfix {
+    display:            block;
+}
+/* End hide from IE-mac */
+
+#teabagged {
+    margin: 1.2em auto 0;
+/*    margin: 0 .75em;*/
+    width: 46.5em;
+}
+
+#header {
+    margin-bottom: .6em;
+}
+
+#logo {
+    width:              15em;
+    background:         #000;
+    height:     3.6em;
+    color:              #fff;
+    text-align:         center;
+    margin:             0 0 1.2em;
+    padding:            .3em 0 .9em; 
+    float:              left;
+}
+
+#logo h1 {
+    font-size:          4em;
+    letter-spacing:     .05em;
+    font-family:        Georgia, serif;
+    line-height:        .3em;
+    margin:             .3em 0;
+    display:            block;
+}
+
+#intro {
+    float:              left;
+    width:              29.25em;
+    margin-left:        .75em;
+}
+
+#intro p {
+    margin: .8em 0 0;
+    font-size:.6em;
+    line-height: 2em;
+
+}
+
+#menu ul {
+    margin-bottom: 1.2em;
+    background:#000;
+    width:20.25em;
+}
+
+#site #menu ul {
+    width: 15em;
+}
+
+#menu li {
+    width: 4.5em;
+    float: left;
+    margin-right: .75em;
+    margin: .6em .75em .6em 0;
+    font-size: 1em; 
+    line-height: 1.2em;
+    text-align:center;
+    font-family: Georgia, serif;
+}
+
+#menu a {
+    float: left;
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    height:100%;
+}
+#menu a:hover, 
+#menu .first a:hover,
+#about .about,
+#projects .projects,
+#blog .blog {
+    background: #c00;
+    color:#fff;
+}
+
+#menu .first {
+
+}
+
+#menu .first a {
+    font-weight: bold;
+    font-variant:small-caps;
+    color:#fff;
+    background:#333;
+}
+
+#menu li.last {
+    margin: .6em 0 .6em 0;
+}
