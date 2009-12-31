@@ -2,7 +2,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(images/bg01.jpg);
+	background: url(/images/bg01.jpg);
 	font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #5A554E;
 }
@@ -79,7 +79,7 @@ img.border {
 /* Wrapper */
 
 #wrapper {
-	background: url(images/bg02.jpg) repeat-x;
+	background: url(/images/bg02.jpg) repeat-x;
 }
 
 .container {
@@ -95,7 +95,7 @@ img.border {
 
 #header {
 	height: 211px;
-	background: url(images/bg04.jpg);
+	background: url(/images/bg04.jpg);
 }
 
 /* Logo */
@@ -157,14 +157,14 @@ img.border {
 
 #menu {
 	height: 76px;
-	background: url(images/bg04.jpg) no-repeat 0 -211px;
+	background: url(/images/bg04.jpg) no-repeat 0 -211px;
 }
 
 #menu ul {
 	height: 67px;
 	margin: 0 25px;
 	padding: 9px 0 0 14px;
-	background: url(images/bg05.jpg);
+	background: url(/images/bg05.jpg);
 	list-style: none;
 	line-height: 1
 }
@@ -176,7 +176,7 @@ img.border {
 }
 
 #menu li.active {
-	background: url(images/bg06.jpg) no-repeat;
+	background: url(/images/bg06.jpg) no-repeat;
 }
 
 #menu a {
@@ -196,7 +196,7 @@ img.border {
 .bar {
 	height: 48px;
 	margin: 0 25px;
-	background: url(images/bg07.jpg);
+	background: url(/images/bg07.jpg);
 }
 
 .bar .text {
@@ -210,7 +210,7 @@ img.border {
 /* Top Bar */
 
 #top-bar {
-	background: url(images/bg04.jpg) no-repeat 0 -287px;
+	background: url(/images/bg04.jpg) no-repeat 0 -287px;
 }
 
 /* Search */
@@ -247,7 +247,7 @@ img.border {
 /* Page */
 
 #page {
-	background: url((images/bg03.jpg) repeat-y;
+	background: url((/images/bg03.jpg) repeat-y;
 }
 
 /* Content */
@@ -256,7 +256,7 @@ img.border {
 	float: left;
 	width: 655px;
 	padding: 0 24px 0 25px;
-	background: url(images/bg04.jpg) no-repeat 0 -335px;
+	background: url(/images/bg04.jpg) no-repeat 0 -335px;
 }
 
 /* Post */
@@ -320,12 +320,12 @@ img.border {
 .post .meta .comments {
 	margin-right: 30px;
 	padding-left: 22px;
-	background: url(images/img04.gif) no-repeat 0 50%;
+	background: url(/images/img04.gif) no-repeat 0 50%;
 }
 
 .post .meta .more {
 	padding-left: 17px;
-	background: url(images/img05.gif) no-repeat 0 50%;
+	background: url(/images/img05.gif) no-repeat 0 50%;
 }
 
 
@@ -337,7 +337,7 @@ img.border {
 	float: right;
 	width: 246px;
 	padding: 24px 50px 0 0;
-	background: url(images/bg04.jpg) no-repeat 100% -335px;
+	background: url(/images/bg04.jpg) no-repeat 100% -335px;
 }
 
 #sidebar ul {
@@ -371,7 +371,7 @@ img.border {
 .two-cols {
 	margin: 0 25px;
 	padding: 35px 35px 0 35px;
-	background: #28241E url(images/bg09.jpg) repeat-x;
+	background: #28241E url(/images/bg09.jpg) repeat-x;
 	color: #736F6A;
 }
 
@@ -399,7 +399,7 @@ img.border {
 /* Footer */
 
 #footer {
-	background: url(images/bg10.jpg) no-repeat;
+	background: url(/images/bg10.jpg) no-repeat;
 	padding: 55px 0;
 }
 
