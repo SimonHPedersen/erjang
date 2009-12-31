@@ -1,0 +1,4 @@
+bin
+*.class
+*~
+erjang-*.jar
